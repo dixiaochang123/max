@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #div {
+        position: absolute;
+        width: 100%;
+        height: 170%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div"></div>
+    <script src="Globe.js"></script>
+    <script>
+      async function load() {
+        globe.initScene();
+        let data = await globe.loadJson("world.json");
+        globe.generatePoints(data);
+        globe.render();
+        globe.pointAnimation();
+      }
+      let div = document.querySelector("#div");
+      let globe = new Globe(div);
+      globe.setPointColor(0x195d84, 0.6, 0x1cb2ff);
+      globe.setAnimationTime(2000);
+      // globe.setStopTime(5000);
+      load();
+    </script>
+  </body>
+</html>

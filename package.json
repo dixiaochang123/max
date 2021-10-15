@@ -1,0 +1,49 @@
+{
+  "name": "max",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.1.1",
+    "animate.css": "^3.5.1",
+    "core-js": "^3.6.5",
+    "d3": "^5.0.0",
+    "echarts": "^5.0.2",
+    "echarts-liquidfill": "^3.0.0",
+    "element-ui": "^2.15.1",
+    "eslint-config-prettier": "^8.1.0",
+    "parse-json": "^4.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "three": "^0.124.0",
+    "topojson": "^3.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "xe-utils": "^3.1.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "gsap": "^3.6.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "description": "**天翼大屏** ## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
